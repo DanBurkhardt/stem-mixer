@@ -4,12 +4,12 @@ A single-file web app for practicing along with song stems. Open a folder of ste
 
 It was built for a cover band that splits songs with StemRoller and wanted something quicker than loading every song into GarageBand or Logic.
 
-- No server, no build step, no dependencies. The whole app is `stem-mixer.html`.
+- No server, no build step, no dependencies. The whole app is `index.html`.
 - Audio never leaves your computer. The browser reads the files from your disk and plays them from memory.
 
 ## Quick start
 
-1. Open `stem-mixer.html` in a browser (double-click it, or host it anywhere that serves static files).
+1. Open `index.html` in a browser (double-click it, or host it anywhere that serves static files).
 2. Press **Open stem folder** and pick a song's folder.
 3. Mute your part and press Play.
 
@@ -19,7 +19,7 @@ The browser's file dialog may call this an "upload". Nothing is uploaded.
 
 | File | Purpose |
 | --- | --- |
-| `stem-mixer.html` | The app. Markup, styles, script and the guide graphics are all in this one file. |
+| `index.html` | The app. Markup, styles, script and the guide graphics are all in this one file. |
 | `favicon.ico` | Site icon, 16 to 256 px. Put it next to the page when hosting. |
 | `favicon.gif` | Static 32×32 version of the same icon. |
 
@@ -104,7 +104,7 @@ Use audio you have the right to use. Downloading and sharing copyrighted recordi
 
 ## Hosting
 
-Copy `stem-mixer.html` and `favicon.ico` to any static host. Rename the page to `index.html` if you want it at the site root.
+Copy `index.html` and `favicon.ico` to any static host. Rename the page to `index.html` if you want it at the site root.
 
 The host only ever serves the page. Visitors' audio files are read locally in their own browser and are not sent to the host.
 
